@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Laptop Prices</title>
+</head>
+<body>
+    <header>
+        <h1>Laptop Information</h1>
+    </header>
+
+    <section>
+        <img src="https://images.pexels.com/photos/109371/pexels-photo-109371.jpeg" alt="Laptop" width="500" height="300">
+        <br><br>
+        <audio controls>
+            <source src="" type="audio/mpeg">
+            Your browser does not support audio playback.
+        </audio>
+        <br><br>
+        <video width="500" height="300" controls>
+            <source src="https://videos.pexels.com/video-files/1395943/1395943-hd_1920_1080_30fps.mp4" type="video/mp4">
+            Your browser does not support video playback.
+        </video>
+    </section>
+
+    <section>
+        <h2>Laptop Brands and Prices</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>BRAND</th>
+                    <th>PRICE RANGE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Lenovo</td><td>R4500 - R20000</td></tr>
+                <tr><td>HP</td><td>R2000 - R30000</td></tr>
+                <tr><td>DELL</td><td>R3500 - R35000</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Popular Laptop Features</h2>
+        <ul>
+            <li>Lightweight and portable</li>
+            <li>Long battery life</li>
+            <li>High processing speed</li>
+            <li>Affordable prices</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Registration Form</h2>
+        <form action="" method="post" autocomplete="on">
+            <label for="id">User ID:</label>
+            <input type="text" id="id" name="id" value="12345" readonly>
+            <br><br>
+
+            <label for="name">Fullname:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your fullname" autocomplete="name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="email" required>
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a strong password" 
+                   pattern=".{6,}" title="Password must be at least 6 characters" required>
+            <br><br>
+
+            <label for="gender">Gender:
+                <input type="radio" id="male" name="gender" value="male" required> Male
+                <input type="radio" id="female" name="gender" value="female"required>Female
+            </label>
+            <br><br>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">---Select Country---</option>
+                <option value="sa">South Africa</option>
+                <option value="zim">Zimbabwe</option>
+                <option value="swati">Eswatini</option>
+            </select>
+            <br><br>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="3" cols="40" placeholder="Write your comments here..."></textarea>
+            <br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Laptop Info Page</p>
+    </footer>
+</body>
+</html>
